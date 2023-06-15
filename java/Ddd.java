@@ -4,6 +4,7 @@ public class Ddd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int D = sc.nextInt();
+        sc.close();
         if(D == 61) {
             System.out.println("Brasilia");
         } else if(D == 71) {
@@ -22,6 +23,6 @@ public class Ddd {
             System.out.println("Belo Horizonte");
         } else {
             System.out.println("DDD nao cadastrado");
-        } 
+        }
     }
 }

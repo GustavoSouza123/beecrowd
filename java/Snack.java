@@ -5,6 +5,7 @@ public class Snack {
         Scanner sc = new Scanner(System.in);
         int X = sc.nextInt();
         int Y = sc.nextInt();
+        sc.close();
         double total = 0;
         if(X == 1) total = 4 * Y;
         else if(X == 2) total = 4.5 * Y;
